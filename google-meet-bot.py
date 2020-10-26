@@ -203,26 +203,6 @@ if option == 1:
                 "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[9]/div[2]/div[2]/div").click()
             driver.close()
 
-        elif class_time == f"{Time_start1} / Saturday" or class_time == f"{Time_start2} / Saturday" or class_time == f"{Time_start3} / Saturday":
-            subject = f"{Meet_Link}"
-            driver = webdriver.Chrome(
-                chrome_options=opt, executable_path=r'chromedriver')
-            gmail()
-            time.sleep(Time_end)
-            driver.find_element_by_xpath(
-                "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[9]/div[2]/div[2]/div").click()
-            driver.close()
-
-        elif class_time == f"{Time_start1} / Sunday" or class_time == f"{Time_start2} / Sunday" or class_time == f"{Time_start3} / Sunday":
-            subject = f"{Meet_Link}"
-            driver = webdriver.Chrome(
-                chrome_options=opt, executable_path=r'chromedriver')
-            gmail()
-            time.sleep(Time_end)
-            driver.find_element_by_xpath(
-                "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[9]/div[2]/div[2]/div").click()
-            driver.close()
-
         else:
             time.sleep(1)
             print(style.RED + "No classes right now")
