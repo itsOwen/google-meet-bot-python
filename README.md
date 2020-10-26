@@ -1,5 +1,3 @@
-# google-meet-bot-python
-
 # Google Meet bot! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 A Basic Google Meet bot that can attend all of your classes :)
