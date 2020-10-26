@@ -3,18 +3,18 @@
 A Basic Google Meet bot that can attend all of your classes :)
 
 # REQUIREMENTS
-pip install selenium <br /> pip install keyboard
+1. pip install selenium <br /> 2. pip install keyboard
  
 # Features:
-I added a basic menu if you want to make an exe and send it to your friend.<br />
-File saving/loading system added:<br />
-All the values you input in the menu will be saved in a text file and will be loaded on your next start.<br />
-Only one google meet link added but you can modify the code and add according to your preferance.<br />
-3 Lectures added only if you have more lectures just modify according to your preferance.<br />
-Mark your attendance in chat box
+1. I added a basic menu if you want to make an exe and send it to your friend.<br />
+2. File saving/loading system added:<br />
+3. All the values you input in the menu will be saved in a text file and will be loaded on your next start.<br />
+4. Only one google meet link added but you can modify the code and add according to your preferance.<br />
+5. 3 Lectures added only if you have more lectures just modify according to your preferance.<br />
+6. Mark your attendance in chat box
 
 # Upcoming Features:
-Recording the whole lecture<br />
-Image to Text (get all your notes extracted from the image to text)
+1. Recording the whole lecture<br />
+2. Image to Text (get all your notes extracted from the image to text)
 
 # Have a nice day :)
