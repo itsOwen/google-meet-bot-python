@@ -3,7 +3,8 @@
 A Basic Google Meet bot that can attend all of your classes :)
 
 # REQUIREMENTS
-1. pip install selenium <br /> 2. pip install keyboard
+1. pip install selenium <br /> 
+2. pip install keyboard
  
 # Features:
 1. I added a basic menu if you want to make an exe and send it to your friend.<br />
