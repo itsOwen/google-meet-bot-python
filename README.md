@@ -13,7 +13,8 @@ A Basic Google Meet bot that can attend all of your classes :)
 All the values you input in the menu will be saved in a text file and will be loaded on your next start.<br />
 3. Only one google meet link added but you can modify the code and add according to your preferance.<br />
 4. 3 Lectures added only if you have more lectures just modify according to your preferance.<br />
-5. Mark your attendance in chat box
+5. Mark your attendance in chat box.
+6. I have added the exe version aswell so you can use it and see the working of the bot.
 
 # Upcoming Features:
 1. Recording the whole lecture<br />
