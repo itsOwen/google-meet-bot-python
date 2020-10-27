@@ -2,6 +2,9 @@
 
 A Basic Google Meet bot that can attend all of your classes :)
 
+# DISCLAIMER
+This bot is created for educational purposes only, I am not responsible for the misuse of this product.
+
 # REQUIREMENTS
 1. pip install selenium <br /> 
 2. pip install keyboard <br />
