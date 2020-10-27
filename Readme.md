@@ -25,15 +25,15 @@ First Install the files in requirements
 Then Simply open CMD and type: python filename.py to run it.
 
 ## FAQ: 
-###### The bot is not working properly after GMAIL Login?<br />
+#### The bot is not working properly after GMAIL Login?<br />
 Make sure you have both Mic and Webcam or you can simply remove the one set of lines one time:
 > keyboard.press_and_release('tab, tab')<br /> 
 > keyboard.press_and_release('enter, enter')
 
-###### Why don't you simply use the experimental features in Chrome?<br />
+#### Why don't you simply use the experimental features in Chrome?<br />
 As of now the features are bugged IDK why as I have tested the same thing on Mozilla driver and it  worked fine.
 
-###### How can I add more Urls?<br />
+#### How can I add more Urls?<br />
 The Simplest approach is to use fstring and take 5 input (if you have 5 different URLS) from user and the save em in TXT file, Read the code you will get it.
 
 ## Upcoming Features:
