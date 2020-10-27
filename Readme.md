@@ -30,6 +30,8 @@ Then Simply open CMD and type: <br />
 Make sure you have both Mic and Webcam or you can simply remove the one set of lines one time:
 > keyboard.press_and_release('tab, tab')<br /> 
 > keyboard.press_and_release('enter, enter')
+<br />
+and also you can remove the code that Clicks on MIC and Video ICON If you don't have a Webcam or MIC, Or you are using it on a AWS or Something.  
 
 #### Why don't you simply use the experimental features in Chrome? <br />
 As of now the experimental features are bugged IDK why as I have tested the same thing on Mozilla driver and it worked fine.
