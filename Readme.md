@@ -31,7 +31,7 @@ Make sure you have both Mic and Webcam or you can simply remove the one set of l
 > keyboard.press_and_release('enter, enter')
 
 #### Why don't you simply use the experimental features in Chrome?<br />
-As of now the features are bugged IDK why as I have tested the same thing on Mozilla driver and it  worked fine.
+As of now the experimental features are bugged IDK why as I have tested the same thing on Mozilla driver and it worked fine.
 
 #### How can I add more Urls?<br />
 The Simplest approach is to use fstring and take 5 input (if you have 5 different URLS) from user and the save em in TXT file, Read the code you will get it.
