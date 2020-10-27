@@ -160,6 +160,9 @@ if option == 1:
                 time.sleep(2)
                 driver.find_element_by_xpath(
                     "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[3]/div/div[2]/div[2]/div[2]/span[2]/div/div[3]/div[2]/span").click()
+                
+                time.sleep(Time_end)
+                driver.close()
 
             except:
                 # driver.close()
