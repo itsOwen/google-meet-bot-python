@@ -7,8 +7,7 @@ This bot is created for educational purposes only, I am not responsible for the 
 
 ## REQUIREMENTS
 1. pip install selenium <br /> 
-2. pip install keyboard <br />
-3. Chrome Driver (add the exe in same folder as of the bot): https://chromedriver.chromium.org/home
+2. Chrome Driver (add the exe in same folder as of the bot): https://chromedriver.chromium.org/home
  
 ## Features:
 1. I added a basic menu if you want to make an exe and send it to your friend.<br />
@@ -24,20 +23,6 @@ All the values you input in the menu will be saved in a text file and will be lo
 First Install the files in requirements. <br />
 Then Simply open CMD and type: <br />
 > python filename.py
-
-## FAQ: 
-#### The bot is not working properly after GMAIL Login? <br />
-Make sure you have both Mic and Webcam or you can simply remove the one set of lines one time:
-> keyboard.press_and_release('tab, tab')<br /> 
-> keyboard.press_and_release('enter, enter')
-<br />
-and also you can remove the code that Clicks on MIC and Video ICON If you don't have a Webcam or MIC, Or you are using it on a AWS or Something.  
-
-#### Why don't you simply use the experimental features in Chrome? <br />
-As of now the experimental features are bugged IDK why as I have tested the same thing on Mozilla driver and it worked fine.
-
-#### How can I add more Urls? <br />
-The Simplest approach is to use fstring and take 5 input (if you have 5 different URLS) from user and the save em in TXT file, Read the code you will get it.
 
 ## Upcoming Features:
 1. Recording the whole lecture <br />
