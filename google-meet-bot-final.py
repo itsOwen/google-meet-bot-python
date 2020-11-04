@@ -134,30 +134,31 @@ if option == 1:
             driver.get(subject)
 
             #Error handling when the bot is unable to locate the chat box (means you are not inside the lobby then the bot will restart and try again)
+            # MOST IMPORTANT XPATHS USUALLY GET CHANGED EVERY WEEK OR MONTH SO YOU NEED TO UPDATE THEM ITS VERY EASY JUST GOOGLE FOR IT.
             try:
             # Turning off audio video
                 # camera
                 time.sleep(1)
                 driver.find_element_by_xpath(
-                    "//*[@id='yDmH0d']/c-wiz/div/div/div[5]/div[3]/div/div/div[2]/div/div[1]/div[1]/div/div[4]/div[2]/div/div").click()
+                    '//*[@id="yDmH0d"]/c-wiz/div/div/div[6]/div[3]/div/div/div[2]/div/div[1]/div[1]/div/div[4]/div[2]/div/div').click()
                 #mic
                 driver.find_element_by_xpath(
-                "//*[@id='yDmH0d']/c-wiz/div/div/div[5]/div[3]/div/div/div[2]/div/div[1]/div[1]/div/div[4]/div[1]/div/div/div").click()
+                '//*[@id="yDmH0d"]/c-wiz/div/div/div[6]/div[3]/div/div/div[2]/div/div[1]/div[1]/div/div[4]/div[1]/div/div/div').click()
                 # Join class
                 time.sleep(7)
                 driver.find_element_by_xpath(
-                    "//*[@id='yDmH0d']/c-wiz/div/div/div[5]/div[3]/div/div/div[2]/div/div[1]/div[2]/div/div[2]/div/div[1]/div[1]/span").click()
-                #send present
-                time.sleep(6)
-                driver.find_element_by_xpath(
-                    "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[6]/div[3]/div/div[2]/div[3]/span/span").click()
+                    '//*[@id="yDmH0d"]/c-wiz/div/div/div[6]/div[3]/div/div/div[2]/div/div[1]/div[2]/div/div[2]/div/div[1]/div[1]/span').click()
+                #send present is commented if u want to use just uncomment and update the xpath
+#                 time.sleep(6)
+#                 driver.find_element_by_xpath(
+#                     "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[6]/div[3]/div/div[2]/div[3]/span/span").click()
                 
-                time.sleep(10)
-                driver.find_element_by_xpath(
-                    "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[3]/div/div[2]/div[2]/div[2]/span[2]/div/div[3]/div[1]/div[1]/div[2]/textarea").send_keys(f"Present {attendance}")
-                time.sleep(2)
-                driver.find_element_by_xpath(
-                    "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[3]/div/div[2]/div[2]/div[2]/span[2]/div/div[3]/div[2]/span").click()
+#                 time.sleep(10)
+#                 driver.find_element_by_xpath(
+#                     "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[3]/div/div[2]/div[2]/div[2]/span[2]/div/div[3]/div[1]/div[1]/div[2]/textarea").send_keys(f"Present {attendance}")
+#                 time.sleep(2)
+#                 driver.find_element_by_xpath(
+#                     "//*[@id='ow3']/div[1]/div/div[5]/div[3]/div[3]/div/div[2]/div[2]/div[2]/span[2]/div/div[3]/div[2]/span").click()
 
                 time.sleep(Time_end)
                 driver.close()
