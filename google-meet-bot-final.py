@@ -132,11 +132,6 @@ if option == 1:
             time.sleep(5)
             # open Meet:
             driver.get(subject)
-            
-            # tab tab enable notifications
-            time.sleep(5)
-            keyboard.press_and_release('tab, tab')
-            keyboard.press_and_release('enter, enter')
 
             #Error handling when the bot is unable to locate the chat box (means you are not inside the lobby then the bot will restart and try again)
             try:
