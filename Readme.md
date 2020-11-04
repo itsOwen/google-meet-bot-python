@@ -8,7 +8,15 @@ This bot is created for educational purposes only, I am not responsible for the 
 ## REQUIREMENTS
 1. pip install selenium <br /> 
 2. Chrome Driver (add the exe in same folder as of the bot): https://chromedriver.chromium.org/home
- 
+
+## Note IMPORTANT (Installation):
+
+If the bot is not working for you, that means that google has updated its xpaths and you need to update the xpaths in the code as well then only the bot will work again.
+
+First Install the files in requirements. <br />
+Then Simply open CMD and type: <br />
+> python filename.py
+
 ## Features:
 1. I added a basic menu if you want to make an exe and send it to your friend.<br />
 2. File saving/loading system added:<br />
@@ -18,11 +26,6 @@ All the values you input in the menu will be saved in a text file and will be lo
 5. Mark your attendance in chat box.
 6. I have added the exe version aswell so you can use it and see the working of the bot.
 7. Auto Leaves the class after its ended (you need to set the time)
-
-## Note (Installation):
-First Install the files in requirements. <br />
-Then Simply open CMD and type: <br />
-> python filename.py
 
 ## Upcoming Features:
 1. Recording the whole lecture <br />
