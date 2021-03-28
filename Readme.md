@@ -18,6 +18,7 @@ All the values you input in the menu will be saved in a text file and will be lo
 5. Mark your attendance in chat box.
 6. I have added the exe version aswell so you can use it and see the working of the bot.
 7. Auto Leaves the class after its ended (you need to set the time)
+8. Make sure that the timezone of the PC is correct. If you're running the bot on cloud, you may want to manually change the timezone of the virtual machine to an appropriate time zone (i.e., the timezone that your online classes follow)
 
 ## Note (Installation):
 First Install the files in requirements. <br />
